@@ -50,6 +50,9 @@ void loop() {
 }
 ```
 
+<img width="1849" height="817" alt="image" src="https://github.com/user-attachments/assets/93ee0d37-8057-490a-8ae7-199a96c20c53" />
+
+
 # Projeto: Monitoramento de Temperatura
 
 ## Objetivo
