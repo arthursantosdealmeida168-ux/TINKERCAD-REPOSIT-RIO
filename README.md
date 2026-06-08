@@ -62,38 +62,6 @@ Ler temperatura usando DHT11 e exibir no monitor serial.
 - Sensor DHT11
 - Jumpers
 
-## Código
-
-```cpp
-#include <DHT.h>
-
-#define DHTPIN 2
-#define DHTTYPE DHT11
-
-DHT dht(DHTPIN, DHTTYPE);
-
-void setup() {
-  Serial.begin(9600);
-  dht.begin();
-}
-
-void loop() {
-  float temp = dht.readTemperature();
-
-  Serial.print("Temperatura: ");
-  Serial.println(temp);
-
-  delay(2000);
-}
-```
-
----
-
-# 06-Comunicacao/mqtt.md
-
-markdown
-# MQTT
-
 MQTT é um protocolo leve utilizado em IoT.
 
 ## Componentes
@@ -162,7 +130,6 @@ Sistema completo de monitoramento ambiental.
 
 Sensor → Arduino/ESP32 → MQTT → Cloud → Dashboard
 
----
 
 ## Conclusão
 
